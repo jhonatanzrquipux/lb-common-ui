@@ -1,3 +1,10 @@
-header {
-    color: 'blue;';
-  }
+.nav {
+  height: 40px;
+  width: 100%;
+  background-color: #4786c4
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
