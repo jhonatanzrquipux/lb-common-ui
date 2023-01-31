@@ -17,6 +17,7 @@ export class TimezoneService {
   constructor( private http: HttpClient ) { 
     this._baseUrl = 'https://timezone.abstractapi.com/v1/current_time';
     this._apikey = 'f1a51fd0efba46b7840d71f20485da6c';
+    this.isInitialice = true;
 
     const params = new HttpParams().appendAll({
       api_key : this._apikey,
